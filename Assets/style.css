@@ -1,0 +1,18 @@
+/*.carousel-item {
+	height: 100vh;
+}
+
+.carousel-item img {
+	margin-top: 10px;
+}
+
+.carousel-item .display-5 {
+	margin-top: -300px;
+}*/
+
+.featured-image {
+   width: 100%;
+   max-height: 75vh;
+   object-fit: cover;
+   object-position: center;
+}
