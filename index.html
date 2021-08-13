@@ -32,10 +32,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Beranda</a>
-              <a class="nav-link text-white fw-bold" href="#about">Kontak</a>
-              <a class="nav-link text-white fw-bold" href="#jasa">Mentor Directory</a>
-              <a class="nav-link text-white fw-bold" href="#contact">Pesan Mentor</a>
+              <a class="nav-link active text-white" aria-current="page" href="#">Beranda</a>
+              <a class="nav-link text-white" href="#about">About</a>
+              <a class="nav-link text-white" href="#kontak">Kontak</a>
+              <a class="nav-link text-white" href="#daftarLayanan">Daftar Layanan</a>
             </div>
           </div>
         </div>
@@ -50,13 +50,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/bosscha.jpg" class="d-block w-100 featured-image" alt="...">
+        <img src="Assets/img/bosscha.jpg" class="d-block w-100 featured-image" alt="...">
           <div class="carousel-caption d-none d-sm-block">
             <h1 class="display-5 fw-bold">Pesan Guru Privat Terbaikmu dan Mulailah Belajar</h1>
           </div>
       </div>
       <div class="carousel-item">
-        <img src="img/farm-house.jpg" class="d-block w-100 featured-image" alt="...">
+        <img src="Assets/img/farm-house.jpg" class="d-block w-100 featured-image" alt="...">
           <div class="carousel-caption d-none d-sm-block">
             <h1 class="display-5 fw-bold">Pesan Guru Privat Terbaikmu dan Mulailah Belajar</h1>
           </div>
@@ -79,14 +79,55 @@
       <br>
       <br>
         <div class="gap-5 col-6 mx-auto">
-          <button class="btn btn-warning text-white" type="button" >Jadi Mentee >></button>
-          <button class="btn btn-danger" type="button">Jadi Mentor >></button>
+          <div class="mentee pb-sm-4">
+            <!-- Jadi Mentee -->
+            <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#modalMentee">Jadi Mentee >></button>
+              <!-- Modal -->
+              <div class="modal fade" id="modalMentee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Jadi Mentor</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Jadi Mentor -->
+              <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#modalMentor">Jadi Mentor >></button>
+                <!-- Modal -->
+                <div class="modal fade" id="modalMentor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Jadi Mentor</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
         </div>
     </div>
   </div>
 
-  <!-- Pilih Tutooring -->
-  <section id="" class="portfolio pb-4 navbar-light" style="background-color: #96BAFF;">
+  <!-- Daftar Layanan -->
+  <section id="about" class="portfolio pb-4 navbar-light" style="background-color: #96BAFF;">
     <div class="container">
       <div class="row mb-4 pt-0">
         <div class="col text-center">
@@ -96,45 +137,189 @@
     </div>
   </section>
 
-  <!-- Mentor -->
-  <section id="jasa" class="portfolio pb-4 ">
+  <!-- Layanan -->
+  <section id="daftarLayanan" class="portfolio pb-4 ">
     <div class="container">
       <div class="row mb-4 pt-1">
         <div class="col text-center">
-          <h1 style="color: #96BAFF;">Mentor Terbaru</h1>
+          <h1 style="color: #96BAFF;">Daftar Layanan</h1>
         </div>
       </div>
 
       <div class="row mb-4">
+        <!-- Layanan 1 -->
         <div class="col-md">
           <div class="card" >
-            <img src="img/bosscha.jpg" class="card-img-top featured-image" alt="...">
+            <img src="Assets/img/bosscha.jpg" class="card-img-top featured-image" alt="...">
             <div class="card-body">
-              <h5 class="card-title text-center">Mentor</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Proposal</h5>
+              <p class="card-text fw-bold" style="color: red">Rp.200.000</p>
+              <p class="card-text">4 Pertemuan</p>
+
+              <!-- Layanan 1 -->
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor1">Pesan</button>
+                <!-- Layanan 1 -->
+                <div class="modal fade" id="mentor1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pesan Mentor</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="form-grup">
+                            <label>Nama Lengkap</label>
+                            <input type="text" name="" class="form-control">
+
+                            <label>Email</label>
+                            <input type="email" name="" class="form-control">
+
+                            <label>Keterangan</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Pesan Mentor</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
+
+          <!-- Layanan 2 -->
           <div class="col-md">
             <div class="card" >
-              <img src="img/farm-house.jpg" class="card-img-top featured-image" alt="...">
+              <img src="Assets/img/farm-house.jpg" class="card-img-top featured-image" alt="...">
               <div class="card-body">
-                <h5 class="card-title text-center">Mentor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Hasil</h5>
+                <p class="card-text fw-bold" style="color: red">Rp.500.000</p>
+                <p class="card-text">10 Pertemuan.</p>
+                
+                <!-- Layanan 2 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor2">Pesan</button>
+                  <!-- Layanan 2 -->
+                  <div class="modal fade" id="mentor2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Pesan Mentor</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="form-grup">
+                            <label>Nama Lengkap</label>
+                            <input type="text" name="" class="form-control">
+
+                            <label>Email</label>
+                            <input type="email" name="" class="form-control">
+
+                            <label>Keterangan</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Pesan Mentor</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
               </div>
             </div>
-        </div>
+          </div>
+
+          <!-- Layanan 3 -->
           <div class="col-md">
             <div class="card">
-              <img src="img/geografis.jpg" class="card-img-top" alt="...">
+              <img src="Assets/img/geografis.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title text-center">Mentor</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Skripsi</h5>
+                <p class="card-text fw-bold" style="color: red">Rp.300.000</p>
+                <p class="card-text">6 Pertemuan.</p>
+                
+                <!-- Layanan 3 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor3">Pesan</button>
+                  <!-- Layanan 3 -->
+                  <div class="modal fade" id="mentor3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Jadi Mentor</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="form-grup">
+                            <label>Nama Lengkap</label>
+                            <input type="text" name="" class="form-control">
+
+                            <label>Email</label>
+                            <input type="email" name="" class="form-control">
+
+                            <label>Keterangan</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
-        </div>
-      </div>   
-    </section>
+          </div>
+
+          <!-- Layanan 4 -->
+          <div class="col-md">
+            <div class="card" >
+              <img src="Assets/img/farm-house.jpg" class="card-img-top featured-image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lengkap</h5>
+                <p class="card-text fw-bold" style="color: red">Rp.800.000</p>
+                <p class="card-text">20 Pertemuan.</p>
+                
+                <!-- Layanan 4 -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor2">Pesan</button>
+                  <!-- Layanan 4 -->
+                  <div class="modal fade" id="mentor2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Pesan Mentor</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="form-grup">
+                            <label>Nama Lengkap</label>
+                            <input type="text" name="" class="form-control">
+
+                            <label>Email</label>
+                            <input type="email" name="" class="form-control">
+
+                            <label>Keterangan</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Pesan Mentor</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+              </div>
+            </div>
+          </div>
+
+        </div>  
+    </div>
+  </section>
 </main>
 
 <!-- border -->
