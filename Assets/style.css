@@ -23,7 +23,11 @@ footer {
    top: -8px;
    border: 1px solid #53B8BB;
    background-color: white;
- }
+}
+
+.marketing {
+   object-position: center;
+}
 
 @media screen and (max-width: 576px) {
    .imgAbout {
