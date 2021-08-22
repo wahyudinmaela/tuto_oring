@@ -8,16 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- css file -->
+    <!-- my css file -->
     <link rel="stylesheet" type="text/css" href="Assets/style.css">
 
-    <style>
-      section {
-        min-height: 420px;
-
-        padding-top: 4rem;      }
-    </style>
-    <!-- css filee -->
+    <!-- Jquery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Tuto_oring | Tutooring Indonesia</title>
   </head>
@@ -69,129 +64,58 @@
   </div>
 
   <!-- Daftar -->
-  <div class="p-2 mb-2 rounded-3 pb-0 mt-2">
-    <div class="container-fluid py-5 text-center">
-      <h3 style="color: #53B8BB;">Daftarkan dirimu sebagai MENTEE atau MENTOR nikmati berbagai layanan dan fasilitas dari TUTO_ORING</h3>
-      <br>
-      <br>
-        <div class="gap-5 col-6 mx-auto">
-          <div class="mentee pb-sm-4">
-            <!-- Jadi Mentee -->
-            <a type="button" class="btn btn-outline-info mt-4" href="https://www.youtube.com/">Jadi Mentee >></a>
-              <!-- Modal -->
-              <!-- <div class="modal fade" id="modalMentee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Jadi Mentor</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-
+  <section class="py-5 pb-5">
+      <div class="container-fluid text-center">
+        <h3 class="fw-bold"style="color: #53B8BB;">Daftarkan dirimu sebagai MENTEE atau MENTOR nikmati berbagai layanan dan fasilitas dari TUTO_ORING</h3>
+        <br>
+        <br>
+          <div class="gap-5 col-6 mx-auto">
+            <div class="mentee pb-sm-2">
+              <!-- Jadi Mentee -->
+              <a type="button" class="btn btn-outline-info mt-4" href="https://www.youtube.com/">Jadi Mentee >></a>
+  
               <!-- Jadi Mentor -->
               <a type="button"  class="btn btn-outline-info mt-4" href="https://www.youtube.com/">Jadi Mentor >></a>
-                <!-- Modal -->
-                <!-- <div class="modal fade" id="modalMentor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Jadi Mentor</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        ...
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
+            </div>
           </div>
-        </div>
-    </div>
-  </div>
-
+      </div>
+  </section>
+  
   <!-- Pilih Tutooring -->
-  <section id="about" class="portfolio pb-4 navbar-light mt-2" style="background-color: #53B8BB;">
+  <section id="about" class="portfolio py-5 pb-5 navbar-light" style="background-color: #53B8BB;">
     <div class="container">
       <div class="row mb-3 pt-0">
         <div class="col text-center">
-          <h1 class="text-white">Mengapa Memilih TUTO_ORING</h1>
+          <h2 class="text-white fw-bold pb-2">Mengapa Memilih TUTO_ORING</h2>
+          <div class="row justify-content-sm-between text-white">
+            <div class="col-sm-3 py-1 text-center">
+              <img src="Assets/img/people.png" alt="org-1" class="border border-3 rounded-circle" height="100vh">
+              <p>Pilihan mentor banyak dan berkompeten</p>
+            </div>
+            <div class="col-sm-3 py-1 text-center">
+              <img  src="Assets/img/jam.png" alt="org-2" class="border border-3 rounded-circle" height="100vh">
+              <p>Waktu dan tempat belajar fleksibel</p>
+            </div>
+            <div class="col-sm-3 py-1 text-center">
+              <img  src="Assets/img/materi.png" alt="org-3" class="border border-3 rounded-circle" height="100vh">
+              <p>Materi disesuaikan Kebutuhan Mantee</p>
+            </div>
+            <div class="col-sm-3 py-1 text-center">
+              <img  src="Assets/img/garansi-kembali.png" alt="org-3" class="border border-3 rounded-circle" height="100vh">
+              <p>Kemudahan Transaksi Tunai, dan Jemput</p>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="row mb-4">
-        <!-- Layanan 1 -->
-        <div class="col-md mt-2">
-          <div class="card" >
-            <img src="Assets/img/bosscha.jpg" class="card-img-top featured-image" alt="...">
-            <div class="card-body">
-              <h5 class="card-title text-center" style="color: #53B8BB;">Pilihan Mentor banyak dan berkompeten</h5>
-            </div>
-          </div>
-        </div>
-
-          <!-- Layanan 2 -->
-          <div class="col-md mt-2">
-            <div class="card" >
-              <img src="Assets/img/farm-house.jpg" class="card-img-top featured-image" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center" style="color: #53B8BB;">Waktu dan Tempat belajar Fleksibel</h5> 
-              </div>
-            </div>
-          </div>
-
-          <!-- Layanan 3 -->
-          <div class="col-md mt-2">
-            <div class="card">
-              <img src="Assets/img/geografis.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center" style="color: #53B8BB;">Materi disesuaikan Kebutuhan</h5>
-              </div>
-            </div>
-          </div>
-
-          <!-- Layanan 4 -->
-          <div class="col-md mt-2">
-            <div class="card" >
-              <img src="Assets/img/farm-house.jpg" class="card-img-top featured-image" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center" style="color: #53B8BB;">Kemudahan Transaksi Tunai, dan jemput</h5>  
-              </div>
-            </div>
-          </div>
-
-          <!-- Layanan 5 -->
-          <div class="col-md mt-2">
-            <div class="card" >
-              <img src="Assets/img/farm-house.jpg" class="card-img-top featured-image" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-center" style="color: #53B8BB;">Jaminan uang Kembali bila tidak sesuai</h5>  
-              </div>
-            </div>
-          </div>
-        </div>
-
     </div>
   </section>
 
   <!-- Bimbingan -->
-  <section id="daftarLayanan" class="portfolio pb-4 ">
+  <section id="daftarLayanan" class="portfolio py-5 pb-5 ">
     <div class="container">
       <div class="row mb-4 pt-1">
         <div class="col text-center">
-          <h1 style="color: #53B8BB;">Jenis Bimbingan</h1>
+          <h2 class="fw-bold" style="color: #53B8BB;">Jenis Bimbingan</h1>
         </div>
       </div>
 
@@ -204,38 +128,7 @@
               <h5 class="card-title" style="color: #267375;">Penulisan</h5>
               <p class="card-text fw-bold" style="color: red">Rp.200.000</p>
               <p class="card-text" style="color: #267375;">Bimbingan penulisan Karya Tulis Ilmiah, Skripsi, Jurnal.</p>
-
-              <!-- Bimbingan 1 -->
-              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor1">Pesan</button>
-                <!-- Bimbingan 1 -->
-                <div class="modal fade" id="mentor1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Pesan Mentor</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <form>
-                          <div class="form-grup">
-                            <label>Nama Lengkap</label>
-                            <input type="text" name="" class="form-control">
-
-                            <label>Email</label>
-                            <input type="email" name="" class="form-control">
-
-                            <label>Keterangan</label>
-                            <textarea class="form-control" rows="5"></textarea>
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Pesan Mentor</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <a href="#" class="btn btn-outline-info btnPacket1" data-bs-toggle="modal" data-bs-target="#mentorBimbingan">Pesan</a>
             </div>
           </div>
         </div>
@@ -248,36 +141,7 @@
                 <h5 class="card-title" style="color: #267375;">Analisis Data Penelitian</h5>
                 <p class="card-text fw-bold" style="color: red">Rp.500.000</p>
                 <p class="card-text" style="color: #267375;">Bimbingan Analisis Data Penelitian.</p>
-                
-                <!-- Bimbingan 2 -->
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor2">Pesan</button>
-                  <!-- Bimbingan 2 -->
-                  <div class="modal fade" id="mentor2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Pesan Mentor</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="form-grup">
-                            <label>Nama Lengkap</label>
-                            <input type="text" name="" class="form-control">
-
-                            <label>Email</label>
-                            <input type="email" name="" class="form-control">
-
-                            <label>Keterangan</label>
-                            <textarea class="form-control" rows="5"></textarea>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Pesan Mentor</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>  
+                <a href="#" class="btn btn-outline-info btnPacket2" data-bs-toggle="modal" data-bs-target="#mentorBimbingan">Pesan</a> 
               </div>
             </div>
           </div>
@@ -290,36 +154,7 @@
                 <h5 class="card-title" style="color: #267375;">Bahasa Inggris</h5>
                 <p class="card-text fw-bold" style="color: red">Rp.300.000</p>
                 <p class="card-text" style="color: #267375;">Bimbingan Bahasa Inggris (TOEFL/IELTS) Preparation.</p>
-                
-                <!-- Bimbingan 3 -->
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor3">Pesan</button>
-                  <!-- Bimbingan 3 -->
-                  <div class="modal fade" id="mentor3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Jadi Mentor</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="form-grup">
-                            <label>Nama Lengkap</label>
-                            <input type="text" name="" class="form-control">
-
-                            <label>Email</label>
-                            <input type="email" name="" class="form-control">
-
-                            <label>Keterangan</label>
-                            <textarea class="form-control" rows="5"></textarea>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <a href="#" class="btn btn-outline-info btnPacket3" data-bs-toggle="modal" data-bs-target="#mentorBimbingan">Pesan</a>
               </div>
             </div>
           </div>
@@ -332,63 +167,53 @@
                 <h5 class="card-title" style="color: #267375;">Persiapan Beasiswa</h5>
                 <p class="card-text fw-bold" style="color: red">Rp.800.000</p>
                 <p class="card-text" style="color: #267375;">Bimbingan Persiapan CV, Motivation Letter, Essay, Dll.</p>
-                
-                <!-- Bimbingan 4 -->
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mentor2">Pesan</button>
-                  <!-- Bimbingan 4 -->
-                  <div class="modal fade" id="mentor2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Pesan Mentor</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="form-grup">
-                            <label>Nama Lengkap</label>
-                            <input type="text" name="" class="form-control">
-
-                            <label>Email</label>
-                            <input type="email" name="" class="form-control">
-
-                            <label>Keterangan</label>
-                            <textarea class="form-control" rows="5"></textarea>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Pesan Mentor</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>  
+                <a href="#" class="btn btn-outline-info btnPacket4" data-bs-toggle="modal" data-bs-target="#mentorBimbingan">Pesan</a>
               </div>
             </div>
           </div>
-
         </div>  
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mentorBimbingan" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Form Registration</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <form action="send_data.php" method="POST">
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-info">Pesan</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Mentor -->
-  <section id="about" class="portfolio pb-4 navbar-light mt-2" style="background-color: #53B8BB;">
+  <!-- Daftar Mentor -->
+  <section id="about" class="portfolio py-5 pb-5 navbar-light" style="background-color: #53B8BB;">
     <div class="container">
       <div class="row mb-3 pt-0">
         <div class="col text-center">
-          <h1 class="text-white pb-2">Daftar Mentor</h1>
+          <h2 class="text-white fw-bold pb-2">Daftar Mentor</h2>
           <div class="row justify-content-sm-between text-white">
             <div class="col-sm-3 py-1 text-center">
-              <img src="Assets/img/avatar.png" alt="org-1" class="border border-3 border-warning rounded-circle" height="100vh">
+              <img src="Assets/img/people.png" alt="org-1" class="border border-3 rounded-circle" height="100vh">
               <h5>Wahyudin Maela</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="col-sm-3 py-1 text-center">
-              <img  src="Assets/img/avatar.png" alt="org-2" class="border border-3 border-warning rounded-circle" height="100vh">
+              <img  src="Assets/img/people.png" alt="org-2" class="border border-3 rounded-circle" height="100vh">
               <h5>Iqbal Baihaqi</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="col-sm-3 py-1 text-center">
-              <img  src="Assets/img/avatar.png" alt="org-3" class="border border-3 border-warning rounded-circle" height="100vh">
+              <img  src="Assets/img/people.png" alt="org-3" class="border border-3 rounded-circle" height="100vh">
               <h5>Eldridge</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
@@ -399,11 +224,11 @@
   </section>
 
   <!-- Support By -->
-  <section id="daftarLayanan" class="portfolio pb-4 ">
+  <section id="daftarLayanan" class="portfolio py-5 pb-5 ">
     <div class="container">
       <div class="row mb-4 pt-1">
         <div class="col text-center">
-          <h1 style="color: #53B8BB;">Support By</h1>
+          <h2 class="fw-bold" style="color: #53B8BB;">Support By</h2>
         </div>
         <div class="text-center pt-5">
           <img src="Assets/img/dinas-perindag-sulteng.png" alt="">
