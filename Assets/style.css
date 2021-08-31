@@ -17,13 +17,12 @@ footer {
    color: white;
 }
 
-.bimbingan:hover {
+/* .bimbingan:hover {
    transition: all 0.2s ease-out;
-   box-shadow: 0px 4px 8px #267375;
    top: -8px;
    border: 1px solid #53B8BB;
    background-color: white;
-}
+} */
 
 .marketing {
    object-position: center;
